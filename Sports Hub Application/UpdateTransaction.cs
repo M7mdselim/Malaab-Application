@@ -424,7 +424,7 @@ namespace Malaab_Application
 
                                 // Calculate the remaining amount
                                 decimal discountAmount = (price * discountPercentage) / 100;
-                                decimal discountedPrice = price - discountAmount;
+                                decimal discountedPrice = (price*1.14m) - discountAmount;
                                 decimal remainingAmount = discountedPrice - amountPaid;
 
                                 // Update the RemainingAmount cell
