@@ -474,13 +474,13 @@ namespace Malaab_Application
                                 sportpricelistlabel.Invoke(new Action(() =>
                                 {
                                     // Update label to show only "Total Price = <total with VAT>"
-                                    sportpricelistlabel.Text = $"Total Price = {totalPriceWithVat:F2}";
+                                    sportpricelistlabel.Text = $"Price = {totalPriceWithVat:F2}";
                                 }));
                             }
                             else
                             {
                                 // Update label to show only "Total Price = <total with VAT>"
-                                sportpricelistlabel.Text = $"Total Price = {totalPriceWithVat:F2}";
+                                sportpricelistlabel.Text = $"Price= {totalPriceWithVat:F2}";
                             }
 
                             // Store original total price for use in discount logic
